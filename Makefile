@@ -36,7 +36,7 @@ export NC ?=
 PROJECT ?= common
 OS ?= arch
 export BOARD ?= rpi4
-export ARCH ?= arm
+export ARCH ?= aarch64
 STAGES ?= __init__ os pikvm-repo pistat watchdog rootdelay no-bluetooth no-audit ro restore-mirrorlist ssh-keygen __cleanup__
 BUILD_OPTS ?=
 
